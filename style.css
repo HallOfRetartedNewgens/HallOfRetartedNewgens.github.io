@@ -1,1 +1,27 @@
-
+html, body {
+  width: 100%;
+  height: 100%;
+  background: black
+}
+.Title h2{
+  animation: color-change 4s infinite;
+  transform: translate(0%, -111%);
+}
+@keyframes color-change {
+    0%{color: red;}	
+		17%{color: orange;}
+		33%{color: yellow;}
+		50%{color: green;}
+		67%{color: blue;}
+		84%{color: purple;}
+	 	100%{color: red;}
+}
+.Title {
+ text-align: center;
+  color: white;
+}
+.DQRK {
+ text-align: center;
+  color: white;
+  transform: translate(-30%, 0%);
+}
